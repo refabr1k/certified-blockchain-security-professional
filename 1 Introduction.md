@@ -36,14 +36,17 @@
 
 # Blocks, Nodes & Network
 ## Blocks 
-- A `block` is like aa Ledger page or a record book. 
+- A `block` is like a Ledger page or a record book. 
+
+![](Pasted%20image%2020220416093452.png)
+
 - Permanently record data existing on the blockchain. 
 - Cannot be modified or deleted once it has been published. 
 - A `block` records any transaction which have not entered any previous blocks.
 - First block (aka Genesis `block`), all confirmed and validated blocks derive from this first block.
 - Each `block` is created with an attachment of hash.
 - Each `block` has a reference to the last block (creating a chain link)
-:important: In theory it is possible to modify all blocks with powerful computer processers, but there is a way that overcomes this called `proof of work`
+:exclaimation: In theory it is possible to modify all blocks with powerful computer processers, but there is a way that overcomes this called `proof of work`
 
 ![](Pasted%20image%2020220416135427.png)
 
@@ -55,9 +58,6 @@
 
 ## Nodes
 - Any device connected to a network of blockchain is defined as a `node`
-
-![](Pasted%20image%2020220416093452.png)
-
 - Full nodes - Completely implement all blockchain rules. They form the core or network backbone.
 - Lightweight nodes - Most nodes are lightweight nodes.
 
@@ -89,7 +89,7 @@
 > 7. Practical Byzantine Fault Tolerance (PBFT)
 > 8. Proof-of-Elapsed Time (PoET)
 
-:important: In theory, it is possible to hack this if the hacker can **simultaneously control and edit 51%** of the copies of blockchain so that their new copy becomes the majority copy and thefore the agreed upon chain 
+:exclaimation: In theory, it is possible to hack this if the hacker can **simultaneously control and edit 51%** of the copies of blockchain so that their new copy becomes the majority copy and thefore the agreed upon chain 
 
 
 ## Merkle Tree
