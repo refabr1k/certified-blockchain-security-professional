@@ -45,7 +45,7 @@
 - Each `block` has a reference to the last block (creating a chain link)
 :important: In theory it is possible to modify all blocks with powerful computer processers, but there is a way that overcomes this called `proof of work`
 
-![[Pasted image 20220416135427.png]]
+![](Pasted%20image%2020220416135427.png)
 
 ### What is proof of work?
 - 10 mins to determine a `proof of work`.
@@ -56,7 +56,7 @@
 ## Nodes
 - Any device connected to a network of blockchain is defined as a `node`
 
-![[Pasted image 20220416093452.png]]
+![](Pasted%20image%2020220416093452.png)
 
 - Full nodes - Completely implement all blockchain rules. They form the core or network backbone.
 - Lightweight nodes - Most nodes are lightweight nodes.
