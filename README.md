@@ -4,13 +4,3 @@ Disclaimer: Content was not created with intention to plagiarize or to illegally
 
 
 # [1. Introduction](1%20Introduction.md)
-- What is blockchain?)
-- When Transactions happen
-- How data integrity is ensured
-- How data are organised
-- Blockchain vs Cryptocurrency
-- Blocks, Nodes & Network
--  Proof of work
-- Concensus
-- Merkle Tree
-- Principle of Mining

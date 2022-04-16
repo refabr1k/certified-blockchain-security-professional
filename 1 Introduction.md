@@ -50,11 +50,6 @@
 
 ![](Pasted%20image%2020220416135427.png)
 
-### What is proof of work?
-- 10 mins to determine a `proof of work`.
-- Then append a new block to the chain in the bitcoin blockchain architecture.
-- `Miners` carry out this procedure, they are special `nodes` within the bitcoin blockchain framework
-- As a reward for validating blocks, they get transaction fees from the block as a reward.
 
 ## Nodes
 - Any device connected to a network of blockchain is defined as a `node`
@@ -66,18 +61,23 @@
 - Each `node` or device are actually client and a server at the same time. 
 - Computer systems are connected to each other over the internet to form a P2P (peer-to-peer) network.
 
+# What is proof of work?
+- 10 mins to determine a `proof of work`.
+- Then append a new block to the chain in the bitcoin blockchain architecture.
+- `Miners` carry out this procedure, they are special `nodes` within the bitcoin blockchain framework
+- As a reward for validating blocks, they get transaction fees from the block as a reward.
 
-## Proof of work
+## Consensus
 - Digital Identity is used to verify users
 	- private key
 	- public key (visible to everyone)
-
+	
 - Authorization (approved mutually) happens before transaction is appended to a block in the chain.
 - For public blockchain use - adding a transaction to the chain is made with the help of **consensus**
 - Majority of nodes/computers in the network must show consensus that transaction is legitimate
 - Rewards and incentives are given to people who posses the computers in the network to verify transactions - `proof of work`
 
-## Concensus
+## Consensus Mechanisms
 - **Concensus** are mechanisms are protocol make sure all nodes are synchronized with each other
 - Some examples are:
 > 1. Proof-of-Work (PoW)
@@ -92,12 +92,29 @@
 :exclaimation: In theory, it is possible to hack this if the hacker can **simultaneously control and edit 51%** of the copies of blockchain so that their new copy becomes the majority copy and thefore the agreed upon chain 
 
 
-## Merkle Tree
+# Merkle Tree
 - Hash based data structure
 - Each leaf node is hash of a data block
 - Each non-leaf node is a hash of its offsptring
 
+![](Pasted%20image%2020220416144941.png)
 
-## Principle of Mining
+# Principle of Mining
 - Mining is the process of recoding the pending transaction by adding a new Block into the Blockchain through a mathematical puzzle
 - Miners get rewarded by receiving new coins of that Blockchain
+
+
+# Types of Blockchain
+## Public blockchain
+- Anyone can read/write without authorization and permission
+- More complex rules and consensus algorithm
+- Computationally expensive to mine and add a block
+- Computational power is distributed globally
+- examples: **Bitcoin**, **Ethereum**
+
+## Private blockchain
+- Only Authorized node can read/write
+- One authorized node can be arbitrator for dispute
+- Security is easier as network consists of trusted nodes
+- Easy or computationally less expensive to add a Block
+- examples: **Hyperledger**, **R3 corda**
