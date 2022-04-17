@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1 Introduction.md",
+            "file": "2. Consensus.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Introduction.md",
+                "file": "2. Consensus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,10 @@
   },
   "active": "eb4a1aed907db92a",
   "lastOpenFiles": [
-    "1 Introduction.md",
+    "2. Consensus.md",
+    "1. Basics.md",
     "README.md",
+    "Pasted image 20220417141623.png",
     "Pasted image 20220416144941.png",
     "Pasted image 20220416093452.png",
     "Pasted image 20220416135427.png"
