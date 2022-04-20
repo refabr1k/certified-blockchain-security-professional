@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2. Consensus.md",
+            "file": "3. Different Security Mechanism.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Consensus.md",
+                "file": "3. Different Security Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "eb4a1aed907db92a",
   "lastOpenFiles": [
+    "3. Different Security Mechanism.md",
     "2. Consensus.md",
     "1. Basics.md",
     "README.md",
