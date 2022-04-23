@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Different Security Mechanism.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Different Security Mechanism.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,13 +88,15 @@
   },
   "active": "eb4a1aed907db92a",
   "lastOpenFiles": [
+    "README.md",
+    "screens/Pasted image 20220416093452.png",
+    "5. Two-Factor Authentication.md",
     "3. Different Security Mechanism.md",
     "2. Consensus.md",
+    "4. Blockchain Risks Assessment.md",
     "1. Basics.md",
-    "README.md",
-    "Pasted image 20220417141623.png",
-    "Pasted image 20220416144941.png",
-    "Pasted image 20220416093452.png",
-    "Pasted image 20220416135427.png"
+    "screens/Pasted image 20220417141623.png",
+    "screens/Pasted image 20220416144941.png",
+    "screens/Pasted image 20220416135427.png"
   ]
 }
