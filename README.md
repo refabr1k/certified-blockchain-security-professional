@@ -45,7 +45,7 @@ Disclaimer: Content was not created with intention to plagiarize or to illegally
 ### Blocks 
 - A `block` is like a Ledger page or a record book. 
 
-![](Pasted%20image%2020220416093452.png)
+![](screens/Pasted%20image%2020220416093452.png)
 
 - Permanently record data existing on the blockchain. 
 - Cannot be modified or deleted once it has been published. 
@@ -55,7 +55,7 @@ Disclaimer: Content was not created with intention to plagiarize or to illegally
 - Each `block` has a reference to the last block (creating a chain link)
 :exclamation: In theory it is possible to modify all blocks with powerful computer processers, but there is a way that overcomes this called `proof of work`
 
-![](Pasted%20image%2020220416135427.png)
+![](screens/Pasted%20image%2020220416135427.png)
 
 
 ### Nodes
@@ -104,7 +104,7 @@ Disclaimer: Content was not created with intention to plagiarize or to illegally
 - Each leaf node is hash of a data block
 - Each non-leaf node is a hash of its offsptring
 
-![](Pasted%20image%2020220416144941.png)
+![](screens/Pasted%20image%2020220416144941.png)
 
 ## Principle of Mining
 - Mining is the process of recoding the pending transaction by adding a new Block into the Blockchain through a mathematical puzzle
@@ -187,7 +187,7 @@ Less complex or computer intensive consensus
 - When a block mathematical puzzle is 'solved' by miners, the transactions contained in that block are considered **validated**
 - Miners receive some rewards when they solve the complex mathematical problem
 
-![](Pasted%20image%2020220417140152.png)
+![](screens/Pasted%20image%2020220417140152.png)
 
 - In short, the 'maths' problem is distributed to all Generals (Byzantine Generals Problem)
 - Solution is integrated to the next PoW problem block.
@@ -219,7 +219,7 @@ Miners raise their porportional mining share by selecting withholding mined bloc
 ### Proof-of-Stake (PoS)
 - Unlike Proof-of-Work, Proof-of-Stake chooses the creator of a new block in a deterministic way (depending on its wealth or stake)
 
-![](Pasted%20image%2020220417141623.png)
+![](screens/Pasted%20image%2020220417141623.png)
 
 - Like PoW, this consensus protocol also seek to address the problem of Byzantine Generals.
 - Solutions had been deployed by a few PoS-based networks that avoid **double spending attacks** and other security vulnerabilities that could arise due to Byzantine failures.
@@ -334,7 +334,7 @@ Selfish mining is not possible as there is no reward for miners unlike for PoW. 
 ## AES (Advanced Encryption Standard)
 - AES 128, 192, 256bits with 3 different key weights and each has block 128 bits
 
-![](Pasted%20image%2020220420205820.png)
+![](screens/Pasted%20image%2020220420205820.png)
 
 Different Key sizes have different 'rounds' of encryption mathematical operations
 
@@ -445,18 +445,18 @@ Blockchain is evolving into DLT (Distributed Ledger Technology). **Hyper Ledger*
 # Block chain architectural design
 
 
-![](Pasted%20image%2020220423092518.png)
+![](screens/Pasted%20image%2020220423092518.png)
 
 
 ## Design Process for blockchain-based systems
 
-![](Pasted%20image%2020220423093346.png)
+![](screens/Pasted%20image%2020220423093346.png)
 
 Approach begins with the decision to decentralize authority or not.
 
 ## System Architecture
 
-![](Pasted%20image%2020220423093531.png)
+![](screens/Pasted%20image%2020220423093531.png)
 
 
 # 5. Two-Factor Authentication (2FA) with Blockchain
@@ -473,11 +473,11 @@ Some companies such as Bit ID have projects that allow users sign up to any serv
 
 ### Ethereum based 2FA architecture
 
-![](Pasted%20image%2020220423123438.png)
+![](screens/Pasted%20image%2020220423123438.png)
 
 
 
-![](Pasted%20image%2020220423123616.png)
+![](screens/Pasted%20image%2020220423123616.png)
 
 
 # 6. Blockchain Vulnerabilities and Attacks
