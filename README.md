@@ -10,7 +10,7 @@ Disclaimer: Content was not created with intention to plagiarize or to illegally
 
 ## Value of blockchain
 
-![](Pasted%20image%2020220421105915.png)
+![](screens/Pasted%20image%2020220421105915.png)
 
 ## When Transactions happen
 - New transactions are added into a 'ledger' but this ledger is tamper proof
