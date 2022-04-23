@@ -490,7 +490,7 @@ Some companies such as Bit ID have projects that allow users sign up to any serv
 5. Smart contract vulnerabilities
 
 
-## Clients-side Vulnerabilties
+## Clients-side Attacks
 - **Digital signature vulnerabilities**. Eg. ECC (elliptic curve cryptography) assymetric cryptography which is used by bitcoin. ECC does not have the randomness required which may compromise private key of user. To generate a digital signature, a random value must be used for the private key.
 - **Hash function function vulnerabilities** - SHA256 is vulnerable to preimage and collision attacks
 - **Mining Malware** - Launch malware on local device or computer to use victim's computer hardware resources to mine block (blockchain).
@@ -498,4 +498,12 @@ Some companies such as Bit ID have projects that allow users sign up to any serv
 - **User's Address Vulnerabilities** - identity fraud. Attacker use MITM attack to change the target bitcoin address during transactions
 
 
-## Consensus Mechanism vulnerabilities
+## Consensus Mechanism Attacks
+
+- **51% Attack** - Gaining 51% control of total coins (or hashing power) in the network may allow an attacker to exploit this vulnerability to monitor the entire blockchain network. The attack could potentially inject, manipulate transactions or steal users assets.
+- **Alternative History Attack** - Atttacker send to merchant transaction that pays. While also privately mining an alternate blockchain fork (double spending) transaction. If the attacker happen to find More blocks (while waiting) he releases the previous fork to regain his coins. Repeating this to try playing catchup wit the network.
+- **Finney attack** - Doublespending attack that is like a race condition attack. E.g. Attacker transfers from A to B (both address he owns). He generates a block but dont broadcast it, but when he makes a payment to C with his address A. When the goods is transfered, he then broadcasts his block and the transaction takes precedence such as mention earlier A pays to B (own money to his pocket) but yet he receives the goods he didnt pay for (from C)
+- **Race Attack** - Based on PoW. Attacker makes 2 competing transaction at the exact same time.
+- **Vector 76 attack** - Attack idenitified by a user called Vector76 which is based on Double Spending attacks. One-confirmation attack, that makes a transaction with only 1 confirmation can still be reversed. In a successful attack, the attacker will 'sacrifice' one block by not broadcasting it, but instead relay it only to the attacked node. After that, the attacker initiates a transactions that makes a legal deposit into the target adn mines it to the stack.
+
+## Mining Pool Attacks
