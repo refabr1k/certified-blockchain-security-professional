@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -89,8 +89,8 @@
   "active": "eb4a1aed907db92a",
   "lastOpenFiles": [
     "README.md",
-    "Solution-Architecture.md",
     "Blockchain-vs-Cryptocurrency.md",
+    "Solution-Architecture.md",
     "Ethereum-based-2FA-architecture.md",
     "Consensus-Mechanism-Attacks.md",
     "screens/Pasted image 20220416093452.png",
