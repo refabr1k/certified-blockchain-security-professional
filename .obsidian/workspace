@@ -89,14 +89,14 @@
   "active": "eb4a1aed907db92a",
   "lastOpenFiles": [
     "README.md",
+    "Solution-Architecture.md",
+    "Blockchain-vs-Cryptocurrency.md",
+    "Ethereum-based-2FA-architecture.md",
+    "Consensus-Mechanism-Attacks.md",
     "screens/Pasted image 20220416093452.png",
     "5. Two-Factor Authentication.md",
     "3. Different Security Mechanism.md",
     "2. Consensus.md",
-    "4. Blockchain Risks Assessment.md",
-    "1. Basics.md",
-    "screens/Pasted image 20220417141623.png",
-    "screens/Pasted image 20220416144941.png",
-    "screens/Pasted image 20220416135427.png"
+    "4. Blockchain Risks Assessment.md"
   ]
 }
