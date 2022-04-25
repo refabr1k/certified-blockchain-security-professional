@@ -84,6 +84,11 @@ Disclaimer: Content was not created with intention to plagiarize or to illegally
   * [Smart Contract Attacks](#smart-contract-attacks)
     + [EVM Bytecode Vulnerabilities](#evm-bytecode-vulnerabilities)
     + [Solidity Vulnerabilities](#solidity-vulnerabilities)
+- [7. Directed Acyclic Graphs (DAGs)](#7-directed-acyclic-graphs--dags-)
+  * [DAGs vs Blockchain](#dags-vs-blockchain)
+  * [DAGs benefits](#dags-benefits)
+  * [DAGs Challenges](#dags-challenges)
+
 
 ---
 
@@ -630,3 +635,24 @@ Solidity is ethereum's high level programming language. In smart contract source
 | Keeping secrets | Compromise a private field in the smart contract | 
 | Reentrancy | Reenter a non-recursive function before its termination. E.g. 2016 DAO attack | 
 | Type casts | No exception is thrown when caller made an error | 
+
+#  7. Directed Acyclic Graphs (DAGs)
+
+DAG protocol is an alternative to standard blockchain or known as distributed ledger technology.
+
+## DAGs vs Blockchain
+
+![](Pasted%20image%2020220425195831.png)
+
+
+## DAGs benefits
+- Scalable 
+- Lower user costs
+- Suited for high volume transactions, the larger the number of transactions, the earlier they are validated by a DAG
+- DAGs eliminates use of miners which means lower energy usage
+
+## DAGs Challenges
+- Decrease in transaction volume render DAGs vulnerable to attacks
+- replication of data accross nodes is difficult (to solve)
+- DAGs employ a 'co-ordinator' to avoid malicious attacks on attacks serving as a centralized, voluntary and temporary alternate consensus mechanism 
+:question: Hmm wouldnt that not be de-centralized anymore???
