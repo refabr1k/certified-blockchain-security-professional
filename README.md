@@ -642,7 +642,7 @@ DAG protocol is an alternative to standard blockchain or known as distributed le
 
 ## DAGs vs Blockchain
 
-![](Pasted%20image%2020220425195831.png)
+![](screens/Pasted%20image%2020220425195831.png)
 
 
 ## DAGs benefits
