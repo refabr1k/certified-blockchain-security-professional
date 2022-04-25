@@ -507,3 +507,41 @@ Some companies such as Bit ID have projects that allow users sign up to any serv
 - **Vector 76 attack** - Attack idenitified by a user called Vector76 which is based on Double Spending attacks. One-confirmation attack, that makes a transaction with only 1 confirmation can still be reversed. In a successful attack, the attacker will 'sacrifice' one block by not broadcasting it, but instead relay it only to the attacked node. After that, the attacker initiates a transactions that makes a legal deposit into the target adn mines it to the stack.
 
 ## Mining Pool Attacks
+
+- **Block WithHolding Attack** - Withhold block to decline the estimated revenue of pool. Aim of attack is to cause mining pool profitability to deline. This is typically possible via the pool administrator who cheats the entire pool.
+- **Bribery Attack** - bribing miners using the following 3 types of bribing techniques: (1) **out-of-band payment**, owner of services is paid directly by attacker to mine the blocks of the attacker. (2) Attacker builds a pool in the **negative-fee mining pool** by awarding the higher return. (3) Attacker tries to bribe the blockchain itself using **in-band payment** by making a fork, involves free bribe money to any miner who endorses the fork of the attacker.
+- **Pool Hopping Attack** - Based on appeal rate, attacker mines if the rate is high, otherwise, attacker leaves the pool. By gathering intel of the amount of submitted shares in the target, the attacker can maximize full profits and chose seperate pool to mine.
+- **Block Discarding Attack** - Attacker must first possess sufficient number of network connection relative to the "honest" nodes. Idea is to improve network dominance by quickly publishes his own block in order to discard blocks of "honest" blocks.
+- **Selfish Mining Attack** - Group of attacker conspires to build a mining pool against "honest" miners. Eg. miner withholds a "solution" for a block he mined and continue working on the next "problem" while his peers are still solving the previous block. If lucky, he can find 2 blocks in a row before anyone else does.
+- **Fork-After-Withholding Attack** - (FAW) attack is a combination of Block WithHolding attack + Selfish mining attack.  
+
+
+## Network Attacks
+- **Partition Attack** - Attacker isolates group of nodes from rest of the bitcoin blockchain network to break network into disjointed parts. Attacker spoof most of the isolated nodes to redirect the traffic to attacker controlled IP addresses. Attacker can drop packets etc.
+- **Delay Attack** - Create delay in block publishing by modifying the content of individual messages (if lack of integrity and encryption checks)
+- **Distributed Denial of Service Attack** (DDoS) - These attacks have caused companies such as BitQuick and CoinWallet to shutdown within few months of beginning operations. This is one of the most popular and inexpensive attacks.
+- **Sybil Attack** - Attacker setup fake assistant nodes and aims to reveal part of the blockchain network. Goal of attack is that attacker can feed misleading data to victims. This could typically be eploited by attacker disabling the functionality of the concensus algorithm and trigger a possible double-spending attack.
+- **Transaction Malleability Attack** - Modify TXID (transaction ID) without revoking the transaction. This is to trick victim into thinking that the transaction failed. eg. Attacker withdraws from an exchange, then with another TXID, republishes the same transaction (one of them appears on the network). But due to the delay, rather than the initial withdrawal, it is likely that the changed transaction will win. The currency exchange will not find the original transaction on the network, and assume that the exchange only depends on TXID. The attacker can continously make withdrawals.
+
+## Smart Contract Attacks
+### EVM Bytecode Vulnerabilities
+Ethereum virtual machine (EVM) is a bytecode running virtual machine that product of compiling smart contracts source code. GAS is consumed for each process in the EVM and reflects the execution expense of the code.
+
+| Vulnerability Name | Reason | 
+| -- | -- |
+| Ether lost in transit | Anything sent to an address that is not associated with a user will be lost forever. There is no way to check if the address is orphan or not |
+| Immutable bugs | Published smart contracts are immutable against any alteration |
+| Stack size limit | Call stack limitation can be leveraged by attackers |
+
+
+### Solidity Vulnerabilities
+Solidity is ethereum's high level programming language. In smart contract source codes, there are 6 documented vulnerabilities that are already exploited:
+
+| Vulnerability Name | Reason | 
+| -- | -- |
+| Calls to unknown | Fallback function is invoked when calling a function that don't exist | 
+| Exception disorder | Anomaly in exceptions handling | 
+| Gasless send | Invoking the out-of-gas exception | 
+| Keeping secrets | Compromise a private field in the smart contract | 
+| Reentrancy | Reenter a non-recursive function before its termination. E.g. 2016 DAO attack | 
+| Type casts | No exception is thrown when caller made an error | 
